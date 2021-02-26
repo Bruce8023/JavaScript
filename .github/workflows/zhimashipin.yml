@@ -16,6 +16,7 @@ jobs:
       URL: "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/zhima.js"
       RUNFILE: "Task/zhima.js"      
       ZM_zhimabody: ${{ secrets.ZM_zhimabody }}
+      ZM_zhimatxbody: ${{ secrets.ZM_zhimatxbody }}
       ZM_CASH: ${{ secrets.ZM_CASH }}
       PUSH_KEY: ${{ secrets.PUSH_KEY }}
       BARK_PUSH: ${{ secrets.BARK_PUSH }}
