@@ -41,7 +41,7 @@ jobs:
       - name: Checkout
 
         run: |
-          git clone https://github.com/ziye11/JavaScript.git ~/JavaScript
+          git clone https://github.com/wangxh86/JavaScript.git ~/JavaScript
       - name: Use Node.js 12.x
 
         uses: actions/setup-node@v1
